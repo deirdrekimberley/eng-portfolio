@@ -1,6 +1,7 @@
 const menuToggle = document.querySelector(".menu-toggle");
 const siteNav = document.querySelector(".site-nav");
 const yearEl = document.querySelector("#year");
+const typedIntroEl = document.querySelector("#typed-intro");
 
 if (menuToggle && siteNav) {
   menuToggle.addEventListener("click", () => {
@@ -18,4 +19,19 @@ if (menuToggle && siteNav) {
 
 if (yearEl) {
   yearEl.textContent = new Date().getFullYear();
+}
+
+if (typedIntroEl) {
+  const text = typedIntroEl.dataset.text || "";
+  let index = 0;
+
+  const typeNext = () => {
+    typedIntroEl.textContent = text.slice(0, index);
+    index += 1;
+    if (index <= text.length) {
+      window.setTimeout(typeNext, 80);
+    }
+  };
+
+  typeNext();
 }
