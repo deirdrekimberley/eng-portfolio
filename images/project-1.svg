@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#d9e1ea"/>
+  <rect x="120" y="140" width="960" height="520" rx="24" fill="#f4f7fb" stroke="#8fa0b2" stroke-width="8"/>
+  <circle cx="330" cy="400" r="120" fill="#90a7be"/>
+  <circle cx="870" cy="400" r="120" fill="#90a7be"/>
+  <rect x="300" y="340" width="600" height="120" rx="20" fill="#5f7f9e"/>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#2e5b84">Fixture Redesign</text>
+</svg>

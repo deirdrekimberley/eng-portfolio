@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#d9e1ea"/>
+  <line x1="240" y1="620" x2="960" y2="620" stroke="#8fa0b2" stroke-width="10"/>
+  <rect x="280" y="180" width="180" height="420" rx="16" fill="#5f7f9e"/>
+  <rect x="520" y="250" width="160" height="350" rx="16" fill="#7a96b2"/>
+  <rect x="740" y="120" width="180" height="480" rx="16" fill="#93abc1"/>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" fill="#2e5b84">Automated Test Rig</text>
+</svg>

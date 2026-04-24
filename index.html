@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="brand">Your Name</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="projects/resume.pdf" class="resume-btn">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Mechanical / Product Engineering</p>
+          <h1>Hi, I am <span>Your Name</span></h1>
+          <p class="hero-copy">
+            I design and build reliable products with a focus on manufacturability,
+            testing, and real-world performance.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="projects/resume.pdf" class="btn btn-outline">Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Core Focus</h2>
+          <ul>
+            <li>CAD and design for manufacturing</li>
+            <li>Prototype development and validation</li>
+            <li>Cross-functional product delivery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">About</p>
+          <h2>Engineer with a product mindset</h2>
+        </div>
+        <p class="about-copy">
+          I am a mechanical/product engineer passionate about turning concepts into
+          robust products. My work spans early ideation, 3D modeling, prototyping,
+          and test-driven iteration. I enjoy collaborating with design, manufacturing,
+          and software teams to deliver complete systems.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected engineering work</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="images/project-1.svg" alt="Prototype assembly render">
+            <div class="project-content">
+              <h3>Lightweight Fixture Redesign</h3>
+              <p>Reduced mass and improved assembly speed through topology-driven redesign.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="images/project-2.svg" alt="Product enclosure concept">
+            <div class="project-content">
+              <h3>IP-Rated Enclosure Development</h3>
+              <p>Developed sealing strategy and test plan for environmental reliability.</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="images/project-3.svg" alt="Test rig setup">
+            <div class="project-content">
+              <h3>Automated Test Rig</h3>
+              <p>Designed a modular rig to accelerate verification cycles and data collection.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-wrap">
+        <div class="section-head">
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something useful</h2>
+        </div>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/your-profile</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
