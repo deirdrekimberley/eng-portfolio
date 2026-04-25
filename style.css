@@ -1,7 +1,7 @@
 :root {
   --bg: #ffffff;
   --surface: #ffffff;
-  --surface-alt: #f4f6f8;
+  --surface-alt: #ffffff;
   --text: #000000;
   --muted: #000000;
   --accent: #000000;
@@ -35,7 +35,7 @@ a {
 }
 
 .container {
-  width: min(1100px, 92%);
+  width: min(1250px, 97%);
   margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ a {
 }
 
 .site-header .container {
-  width: min(1400px, 97%);
+  width: min(1350px, 97%);
 }
 
 .nav-wrap {
@@ -119,7 +119,6 @@ h1 {
 
 .section-alt {
   background: var(--surface-alt);
-  border-block: 1px solid var(--border);
 }
 
 .section-head {
@@ -228,7 +227,7 @@ h1 {
 .home-experiences .container,
 .home-projects .container,
 .home-contact .container {
-  width: min(1400px, 97%);
+  width: min(1350px, 97%);
 }
 
 .home-experiences .section-head,
@@ -300,6 +299,10 @@ h1 {
   font-size: 0.92rem;
 }
 
+.project-grid {
+  margin-bottom: 60px;
+}
+
 .page-hero {
   padding: 4rem 0 2rem;
 }
@@ -327,7 +330,7 @@ h1 {
 }
 
 .site-footer .container {
-  width: min(1400px, 97%);
+  width: min(1350px, 97%);
 }
 
 .site-footer p {
