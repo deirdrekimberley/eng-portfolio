@@ -3,37 +3,309 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IP-Rated Enclosure Development | Deirdre Kimberley</title>
+  <title>Ejector Method Redesign | Deirdre Kimberley</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body class="projects-page">
+<body class="project-case-page tesla-opt station-combo ejector-page">
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="../index.html">Deirdre Kimberley</a>
       <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="work.html">Work</a>
-        <a href="about.html">About Me</a>
-        <a href="#contact">Contact</a>
-        <a href="projects/resume.pdf">Resume</a>
+        <a class="nav-link" href="../index.html">Home</a>
+        <a class="nav-link" href="../about.html">About</a>
+        <a class="nav-link active" href="../work.html">Work</a>
+        <a class="nav-link" href="../contact.html">Contact</a>
+        <a class="nav-link" href="../assets/Deirdre-Resume-test.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
       </nav>
     </div>
   </header>
 
-  <main class="project-detail">
-    <div class="container">
-      <a class="detail-back" href="index.html">← Back to Projects</a>
-      <h1>IP-Rated Enclosure Development</h1>
-      <img src="../images/project-2.svg" alt="Enclosure development">
-      <p>
-        This page is your project detail space. Add your sealing approach,
-        design decisions, test methods, and final performance results here.
-      </p>
-    </div>
+  <main class="project-case-main">
+    <article class="project-case">
+      <div class="container experience-container">
+        <a class="experience-back" data-context-back href="../work.html#projects">← Back to Projects</a>
+
+        <header class="experience-header station-combo-hero">
+          <p class="experience-company">Martinrea International</p>
+          <h1 class="project-case-title">Ejector Method Redesign</h1>
+          <p class="apple-exp-kicker">
+            Redesigning a recurring production mechanism to improve reliability,
+            protect equipment, and increase throughput.
+          </p>
+          <div class="project-case-facts station-combo-facts">
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Role</p>
+              <p class="project-case-fact-value">Manufacturing Engineering Intern</p>
+            </div>
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Focus</p>
+              <p class="project-case-fact-value">Mechanical Design · Reliability · Process Improvement</p>
+            </div>
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Tools</p>
+              <p class="project-case-fact-value">SOLIDWORKS · Pneumatics · Bearings · Mechanism Design</p>
+            </div>
+          </div>
+        </header>
+
+        <section class="experience-block apple-exp-block">
+          <h2 class="experience-block-title">Project Overview</h2>
+          <p class="experience-copy station-combo-lead">
+            The production process used an ejector mechanism to move completed parts away from the welding equipment after each cycle. Repeated operation created reliability problems within the existing mechanism, contributing to equipment wear, electrode damage, and recurring production downtime.
+          </p>
+          <p class="experience-copy station-combo-lead opt-copy-follow">
+            I redesigned the mechanism to create a more stable and maintainable system while preserving the existing station architecture and pneumatic actuation.
+          </p>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">01</span>
+              The Existing Mechanism
+            </h2>
+            <p class="apple-exp-kicker">
+              Understanding how the original ejector operated and where reliability
+              problems were developing.
+            </p>
+            <div class="apple-exp-split">
+              <div class="apple-exp-split-col">
+                <p class="apple-exp-copy">
+                  The original system used a pneumatic cylinder to actuate a pivoting plate / ejector assembly. Springs and the existing pivot arrangement controlled or supported the motion of the mechanism.
+                </p>
+                <p class="apple-exp-copy opt-copy-follow">
+                  Repeated cycling created instability and wear within the system. The mechanism was used across multiple substations, so those reliability problems affected production repeatedly rather than at a single isolated station.
+                </p>
+              </div>
+              <div class="apple-exp-split-col">
+                <figure class="ejector-pair">
+                  <div class="ejector-pair-grid">
+                    <div class="ejector-media-frame">
+                      <img src="../assets/work/projects/ejector/existing.jpeg" alt="Close-up of the existing factory ejector mechanism with pneumatic connections and spring-assisted pivot">
+                    </div>
+                    <div class="ejector-media-frame">
+                      <img src="../assets/work/projects/ejector/old-station-view.jpeg" alt="Station view of the existing ejector mechanism inside the manufacturing cell">
+                    </div>
+                  </div>
+                  <figcaption class="station-combo-caption">Existing Ejector Mechanism</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">02</span>
+              Failure Modes
+            </h2>
+            <p class="apple-exp-kicker">
+              Recurring mechanical issues were reducing equipment reliability and
+              interrupting production.
+            </p>
+            <div class="ejector-failure-grid">
+              <article class="ejector-failure-item">
+                <h3 class="opt-interface-concept-title">Instability</h3>
+                <p class="apple-exp-copy">
+                  The existing mechanism could become unstable during repeated operation, affecting the consistency of the ejector motion.
+                </p>
+              </article>
+              <article class="ejector-failure-item">
+                <h3 class="opt-interface-concept-title">Pivot Wear</h3>
+                <p class="apple-exp-copy">
+                  Repeated motion at the pivot contributed to wear and reduced the robustness of the assembly.
+                </p>
+              </article>
+              <article class="ejector-failure-item">
+                <h3 class="opt-interface-concept-title">Alignment &amp; Hardware</h3>
+                <p class="apple-exp-copy">
+                  The existing arrangement could loosen or become difficult to maintain and realign during service.
+                </p>
+              </article>
+              <article class="ejector-failure-item">
+                <h3 class="opt-interface-concept-title">Electrode Protection</h3>
+                <p class="apple-exp-copy">
+                  Uncontrolled or unstable movement could allow the tray / mechanism to impact the electrodes, contributing to damage and downtime.
+                </p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">03</span>
+              Design Requirements
+            </h2>
+            <p class="apple-exp-kicker">
+              The redesign needed to improve reliability without requiring a complete
+              station replacement.
+            </p>
+            <div class="opt-interface-concepts station-combo-reqs ejector-reqs">
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">Robustness</h3>
+                <p class="apple-exp-copy">
+                  Reduce wear and instability during repeated production cycles.
+                </p>
+              </article>
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">Controlled Motion</h3>
+                <p class="apple-exp-copy">
+                  Improve the behavior of the ejector throughout its movement.
+                </p>
+              </article>
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">Maintainability</h3>
+                <p class="apple-exp-copy">
+                  Use mechanical interfaces that were easier to service and replace when required.
+                </p>
+              </article>
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">System Compatibility</h3>
+                <p class="apple-exp-copy">
+                  Preserve compatibility with the existing station and pneumatic cylinder.
+                </p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">04</span>
+              Mechanical Redesign
+            </h2>
+            <p class="apple-exp-kicker">
+              Improving the pivot system and controlling the motion of the ejector.
+            </p>
+            <div class="apple-exp-split">
+              <div class="apple-exp-split-col">
+                <h3 class="apple-exp-mini-title">Bearing-Supported Pivot</h3>
+                <p class="apple-exp-copy">
+                  The original pivot arrangement was redesigned using bearings and shoulder bolts to create a more robust rotational interface and reduce wear associated with repeated cycling.
+                </p>
+                <h3 class="apple-exp-mini-title ejector-subhead-follow">Gas Strut Assist</h3>
+                <p class="apple-exp-copy">
+                  A gas strut was incorporated to support the ejector motion, reduce the load carried by the pneumatic cylinder, and prevent the mechanism from moving uncontrollably into the electrodes.
+                </p>
+              </div>
+              <div class="apple-exp-split-col">
+                <figure class="ejector-pair ejector-pair--cad">
+                  <div class="ejector-pair-grid">
+                    <div class="ejector-media-frame">
+                      <img src="../assets/work/projects/ejector/redesigned.PNG" alt="CAD model of the redesigned ejector mechanism with bearing-supported pivot and gas strut">
+                    </div>
+                    <div class="ejector-media-frame">
+                      <img src="../assets/work/projects/ejector/ejector-new-station-view.PNG" alt="CAD station view of the redesigned ejector assembly">
+                    </div>
+                  </div>
+                  <figcaption class="station-combo-caption">Redesigned Ejector Mechanism</figcaption>
+                  <p class="ejector-media-note">
+                    Design completed during my internship; factory implementation followed afterward.
+                  </p>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block combo-results-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">05</span>
+              Results
+            </h2>
+            <div class="ejector-results-row">
+              <div class="ejector-result-hero">
+                <p class="experience-metric-value">45%</p>
+                <p class="experience-metric-label">JPH Increase</p>
+                <p class="ejector-result-context">Across 9 substations</p>
+              </div>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Reduced Downtime</h3>
+                <p class="apple-exp-copy">
+                  Eliminated unnecessary daily downtime associated with recurring ejector issues.
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Equipment Protection</h3>
+                <p class="apple-exp-copy">
+                  Improved control of the mechanism to reduce the risk of damage to the electrodes.
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Improved Reliability</h3>
+                <p class="apple-exp-copy">
+                  Created a more robust ejector design for repeated production use.
+                </p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">06</span>
+              Engineering Takeaways
+            </h2>
+            <div class="apple-exp-takeaways">
+              <article>
+                <h3 class="apple-exp-takeaway-title">Design for Wear</h3>
+                <p class="apple-exp-copy">
+                  Small mechanical interfaces can become major production constraints when they cycle continuously. Designing the pivot around repeated use was just as important as making the mechanism function initially.
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Control the Dynamics</h3>
+                <p class="apple-exp-copy">
+                  A mechanism that reaches the correct final position is not necessarily a good production design. How the system moves between positions also affects reliability and surrounding equipment.
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Design for Maintenance</h3>
+                <p class="apple-exp-copy">
+                  Production mechanisms eventually require service. Using robust, replaceable mechanical interfaces can reduce the impact of maintenance on manufacturing uptime.
+                </p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block opt-tools">
+          <h2 class="experience-block-title">Engineering Methods</h2>
+          <p class="experience-tools">
+            SOLIDWORKS · Mechanism Design · Bearings · Pneumatics · Reliability · Root Cause · Production Equipment · Process Optimization
+          </p>
+        </section>
+
+        <nav class="experience-footer-nav" aria-label="Project navigation">
+          <a class="experience-nav-link" data-preserve-from href="project-1.html">
+            ← Previous Project
+            <span class="experience-nav-next-label">Station Combination</span>
+          </a>
+          <a class="experience-nav-link opt-nav-all" href="../work.html#projects">All Projects</a>
+          <a class="experience-nav-link experience-nav-next" data-preserve-from href="project-3.html">
+            Next Project →
+            <span class="experience-nav-next-label">Station Redesign</span>
+          </a>
+        </nav>
+      </div>
+    </article>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Deirdre Kimberley. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script src="../script.js"></script>
 </body>
 </html>

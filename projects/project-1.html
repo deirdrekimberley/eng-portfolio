@@ -3,37 +3,441 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lightweight Fixture Redesign | Deirdre Kimberley</title>
+  <title>Station Combination | Deirdre Kimberley</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body class="projects-page">
+<body class="project-case-page tesla-opt station-combo">
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="../index.html">Deirdre Kimberley</a>
       <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="work.html">Work</a>
-        <a href="about.html">About Me</a>
-        <a href="#contact">Contact</a>
-        <a href="projects/resume.pdf">Resume</a>
+        <a class="nav-link" href="../index.html">Home</a>
+        <a class="nav-link" href="../about.html">About</a>
+        <a class="nav-link active" href="../work.html">Work</a>
+        <a class="nav-link" href="../contact.html">Contact</a>
+        <a class="nav-link" href="../assets/Deirdre-Resume-test.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
       </nav>
     </div>
   </header>
 
-  <main class="project-detail">
-    <div class="container">
-      <a class="detail-back" href="index.html">← Back to Projects</a>
-      <h1>Lightweight Fixture Redesign</h1>
-      <img src="../images/project-1.svg" alt="Fixture redesign">
-      <p>
-        This page is your project detail space. Add your project background,
-        design constraints, calculations, manufacturing choices, and outcomes here.
-      </p>
-    </div>
+  <main class="project-case-main">
+    <article class="project-case">
+      <div class="container experience-container">
+        <a class="experience-back" data-context-back href="../work.html#projects">← Back to Projects</a>
+
+        <header class="experience-header station-combo-hero">
+          <p class="experience-company">Martinrea International</p>
+          <h1 class="project-case-title">Station Combination</h1>
+          <p class="apple-exp-kicker">
+            Consolidating two manufacturing operations into a single production cell.
+          </p>
+          <div class="project-case-facts station-combo-facts">
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Role</p>
+              <p class="project-case-fact-value">Manufacturing Engineering Intern</p>
+            </div>
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Focus</p>
+              <p class="project-case-fact-value">Equipment Design · Process Optimization · Automation</p>
+            </div>
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Tools</p>
+              <p class="project-case-fact-value">SOLIDWORKS · Sensors · Pneumatics</p>
+            </div>
+          </div>
+        </header>
+
+        <section class="experience-block apple-exp-block">
+          <h2 class="experience-block-title">Project Overview</h2>
+          <p class="experience-copy station-combo-lead">
+            Martinrea’s Jeep Cherokee front rails passed through two separate substations before entering the main production line. I worked on consolidating these operations into a single station, integrating new clinching equipment, part locating, sensing, and guarding to support both left and right front-rail configurations
+          </p>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">01</span>
+              The Existing Process
+            </h2>
+            <p class="apple-exp-kicker">
+              Two separate manufacturing operations created an opportunity for consolidation.
+            </p>
+            <div class="apple-exp-split station-combo-split">
+              <div class="apple-exp-split-col">
+                <div class="section-copy">
+                  <p class="apple-exp-copy">
+                    Front rails passed through separate bracket-attachment and pipe-nut welding
+                    substations before entering the main manufacturing line. This duplicated
+                    equipment, labor, and floor-space requirements and created an opportunity
+                    for consolidation.
+                  </p>
+                  <div class="combo-existing-ops" aria-label="Existing operations">
+                   
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="apple-exp-split-col station-combo-visuals">
+                <div class="combo-existing-pair">
+                  <figure class="combo-existing-media station-combination-bracket">
+                    <div class="combo-existing-frame">
+                      <img src="../assets/work/projects/station-combo/bracket-cell.jpeg" alt="Existing bracket-attachment manufacturing cell">
+                    </div>
+                    <figcaption class="combo-existing-caption">
+                      <span class="combo-existing-caption-title">01 — Bracket Attachment Cell</span>
+                      <span class="combo-existing-caption-note">Existing bracket-attachment operation</span>
+                    </figcaption>
+                  </figure>
+                  <figure class="combo-existing-media station-combination-pipenut">
+                    <div class="combo-existing-frame">
+                      <img src="../assets/work/projects/station-combo/pipenut-cell.jpeg" alt="Existing pipe-nut welding manufacturing cell">
+                    </div>
+                    <figcaption class="combo-existing-caption">
+                      <span class="combo-existing-caption-title">02 — Pipe-Nut Welding Cell</span>
+                      <span class="combo-existing-caption-note">Existing pipe-nut welding operation</span>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">02</span>
+              Design Requirements
+            </h2>
+            <p class="apple-exp-kicker">
+              Combining the operations required more than simply fitting another machine into the cell.
+            </p>
+            <div class="opt-interface-concepts station-combo-reqs">
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">Equipment Integration</h3>
+                <p class="apple-exp-copy">
+                  Integrate the new clinching equipment within the constraints of the existing manufacturing station.
+                </p>
+              </article>
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">Part Variation</h3>
+                <p class="apple-exp-copy">
+                  Support both left-hand and right-hand front rails within the combined process.
+                </p>
+              </article>
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">Process Verification</h3>
+                <p class="apple-exp-copy">
+                  Detect bracket presence and support reliable execution of the combined operation.
+                </p>
+              </article>
+              <article class="opt-interface-concept">
+                <h3 class="opt-interface-concept-title">Safety &amp; Access</h3>
+                <p class="apple-exp-copy">
+                  Modify the station layout and guarding around the new equipment while maintaining appropriate operator separation.
+                </p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">03</span>
+              Equipment Development
+            </h2>
+            <p class="apple-exp-kicker">
+              Developing and integrating a custom clinching system for the consolidated
+              manufacturing cell.
+            </p>
+            <div class="combo-equip" data-combo-equip>
+              <ol class="combo-equip-lifecycle" aria-label="Equipment development lifecycle">
+                <li class="combo-equip-stage">
+                  <button
+                    type="button"
+                    class="combo-equip-stage-btn is-active"
+                    aria-pressed="true"
+                    data-stage-num="01"
+                    data-stage-title="Requirements & Design"
+                  >
+                    <span class="combo-equip-stage-num">01</span>
+                    <span class="combo-equip-stage-dot" aria-hidden="true"></span>
+                    <span class="combo-equip-stage-label">Requirements &amp; Design</span>
+                  </button>
+                  <template data-stage-content>
+                    <p class="apple-exp-copy">I worked with BTM to define the functional requirements, constraints, and acceptance criteria for the custom clinching system. The equipment had to reliably attach the brackets while meeting production cycle-time requirements and fitting within the limited space of the existing manufacturing cell.</p>
+                    <p class="apple-exp-copy">Through design reviews, I evaluated proposed concepts for compatibility with the part geometry, surrounding equipment, operator and maintenance access, utilities, and applicable machine-safety requirements. I worked with BTM through design iterations and approved the final equipment design for development.</p>
+                  </template>
+                </li>
+                <li class="combo-equip-stage">
+                  <button
+                    type="button"
+                    class="combo-equip-stage-btn"
+                    aria-pressed="false"
+                    data-stage-num="02"
+                    data-stage-title="Process Validation"
+                  >
+                    <span class="combo-equip-stage-num">02</span>
+                    <span class="combo-equip-stage-dot" aria-hidden="true"></span>
+                    <span class="combo-equip-stage-label">Process Validation</span>
+                  </button>
+                  <template data-stage-content>
+                    <p class="apple-exp-copy">Representative production parts were sent to BTM during development to verify that the proposed clinching process was compatible with the actual material and part geometry. Trials were used to establish whether the equipment could consistently form the required clinch without introducing unacceptable part damage or deformation.</p>
+                    <p class="apple-exp-copy">The resulting joints were then mechanically evaluated, including peel testing, to verify that the clinch strength was appropriate for the application before the equipment progressed toward final acceptance.</p>
+                  </template>
+                </li>
+                <li class="combo-equip-stage">
+                  <button
+                    type="button"
+                    class="combo-equip-stage-btn"
+                    aria-pressed="false"
+                    data-stage-num="03"
+                    data-stage-title="Factory Integration"
+                  >
+                    <span class="combo-equip-stage-num">03</span>
+                    <span class="combo-equip-stage-dot" aria-hidden="true"></span>
+                    <span class="combo-equip-stage-label">Factory Integration</span>
+                  </button>
+                  <template data-stage-content>
+                    <p class="apple-exp-copy">In parallel with equipment development, I reviewed how the new system would physically integrate into the existing manufacturing cell. This included confirming the available equipment envelope, interfaces with surrounding machinery, production access, serviceability, and the utilities required to operate the presses.</p>
+                    <p class="apple-exp-copy">The presses were incorporated into a rail-mounted arrangement so they could move into the required production position while maintaining access for adjustment and servicing. I coordinated the factory-side requirements so the cell would be prepared for installation when the equipment arrived.</p>
+                  </template>
+                </li>
+                <li class="combo-equip-stage">
+                  <button
+                    type="button"
+                    class="combo-equip-stage-btn"
+                    aria-pressed="false"
+                    data-stage-num="04"
+                    data-stage-title="Factory Acceptance"
+                  >
+                    <span class="combo-equip-stage-num">04</span>
+                    <span class="combo-equip-stage-dot" aria-hidden="true"></span>
+                    <span class="combo-equip-stage-label">Factory Acceptance</span>
+                  </button>
+                  <template data-stage-content>
+                    <p class="apple-exp-copy">Before shipment, I traveled to BTM to complete the equipment buyoff and evaluate the finished system under representative operating conditions. I observed the equipment running production-representative parts and verified the clinching process, machine functionality, safety features, and key requirements against the agreed acceptance criteria.</p>
+                    <p class="apple-exp-copy">Any remaining issues could then be addressed before shipment, reducing installation risk and helping ensure the equipment arrived at the factory ready for production integration.</p>
+                  </template>
+                </li>
+              </ol>
+              <div class="combo-equip-panel">
+                <figure class="combo-equip-media station-combination-press">
+                  <div class="combo-equip-frame">
+                    <img src="../assets/work/projects/station-combo/btm-press.png" alt="Custom BTM clinching press equipment for the consolidated station">
+                  </div>
+                  <figcaption class="combo-equip-caption">Custom Clinching Equipment</figcaption>
+                </figure>
+                <div class="combo-equip-copy">
+                  <p class="combo-equip-heading">
+                    <span data-combo-equip-num>01</span>
+                    <span class="combo-equip-heading-sep" aria-hidden="true">—</span>
+                    <span data-combo-equip-title>Requirements &amp; Design</span>
+                  </p>
+                  <div class="combo-equip-body" data-combo-equip-body>
+                    <p class="apple-exp-copy">I worked with BTM to define the functional requirements, constraints, and acceptance criteria for the custom clinching system. The equipment had to reliably attach the brackets while meeting production cycle-time requirements and fitting within the limited space of the existing manufacturing cell.</p>
+                    <p class="apple-exp-copy">Through design reviews, I evaluated proposed concepts for compatibility with the part geometry, surrounding equipment, operator and maintenance access, utilities, and applicable machine-safety requirements. I worked with BTM through design iterations and approved the final equipment design for development.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">04</span>
+              Part Location &amp; Error Proofing
+            </h2>
+            <p class="apple-exp-kicker">
+              Supporting multiple part variants while verifying the correct production condition.
+            </p>
+            <div class="combo-proofing">
+              <div class="combo-proofing-copy">
+                <h3 class="apple-exp-subhead">Location &amp; Verification</h3>
+                <p class="apple-exp-copy">
+                  Because both left-hand and right-hand rails ran through the station, I developed a pin-based locating approach that correctly positioned either part configuration within the combined process. Laser sensing verified bracket presence before processing, adding error proofing to the redesigned station.
+                </p>
+              </div>
+              <figure class="combo-proofing-media">
+                <div class="combo-proofing-frame">
+                  <img src="../assets/work/projects/station-combo/part-location.PNG" alt="Pin-based part locating and bracket verification setup">
+                </div>
+                <figcaption class="combo-existing-caption">
+                  <span class="combo-existing-caption-title">Location &amp; Verification Design</span>
+                  <span class="combo-existing-caption-note">CAD showing the locating features used to position rail variants.</span>
+                </figcaption>
+              </figure>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">05</span>
+              Guarding &amp; Station Integration
+            </h2>
+            <p class="apple-exp-kicker">
+              Integrating the new equipment into an existing production environment.
+            </p>
+            <div class="station-combo-guard">
+              <p class="apple-exp-copy station-combo-wide-copy">
+                Integrating the clinching equipment required changes to the station perimeter and operator access. I redesigned the fencing around the new press arrangement while maintaining separation between personnel and production equipment.
+              </p>
+              <figure class="station-combo-media station-combination-guarding">
+                <div class="station-combo-frame station-combo-frame--cad">
+                  <img src="../assets/work/projects/station-combo/full-station-guarding.png" alt="Full station layout showing redesigned guarding and equipment integration">
+                </div>
+                <figcaption class="station-combo-caption">Station Integration</figcaption>
+              </figure>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block combo-video-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">06</span>
+              System in Action
+            </h2>
+            <p class="apple-exp-kicker">
+              See the completed system perform the automated sequence.
+            </p>
+            <div class="combo-video-wrap">
+              <video
+                class="combo-video"
+                controls
+                muted
+                playsinline
+                preload="metadata"
+                poster="../assets/work/projects/station-combo/station-combo-workpage.jpg"
+              >
+                <source src="../assets/work/projects/station-combo/station-combo-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block combo-results-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">07</span>
+              Results
+            </h2>
+            <div class="experience-metrics combo-results-primary">
+              <div class="experience-metric">
+                <div class="result-value-wrap">
+                  <p class="experience-metric-value combo-results-value--compact">$225K</p>
+                </div>
+                <p class="experience-metric-label">Annual Savings</p>
+              </div>
+              <div class="experience-metric">
+                <div class="result-value-wrap">
+                  <p class="experience-metric-value">450 sq ft</p>
+                </div>
+                <p class="experience-metric-label">Floor Space Freed</p>
+              </div>
+              <div class="experience-metric">
+                <div class="result-value-wrap">
+                  <p class="experience-metric-value">1</p>
+                </div>
+                <p class="experience-metric-label">Operator Reduced</p>
+              </div>
+              <div class="experience-metric">
+                <div class="result-value-wrap">
+                  <p class="experience-metric-value">$40K</p>
+                </div>
+                <p class="experience-metric-label">Robot Freed for Reuse</p>
+              </div>
+            </div>
+            <div class="combo-sustain">
+              <h3 class="apple-exp-subhead">Sustainability Impact</h3>
+              <div class="experience-metrics combo-results-secondary">
+                <div class="experience-metric">
+                  <div class="result-value-wrap">
+                    <p class="experience-metric-value combo-sustain-value">7.125 kW/h</p>
+                  </div>
+                  <p class="experience-metric-label">Electricity Reduction</p>
+                </div>
+                <div class="experience-metric">
+                  <div class="result-value-wrap">
+                    <p class="experience-metric-value combo-sustain-value">114 gal / Year</p>
+                  </div>
+                  <p class="experience-metric-label">Water Reduction</p>
+                </div>
+                <div class="experience-metric">
+                  <div class="result-value-wrap">
+                    <p class="experience-metric-value combo-sustain-value">2,184 / Year</p>
+                  </div>
+                  <p class="experience-metric-label">Weld Caps Reduced</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">08</span>
+              Engineering Takeaways
+            </h2>
+            <div class="apple-exp-takeaways">
+              <article>
+                <h3 class="apple-exp-takeaway-title">Design at the System Level</h3>
+                <p class="apple-exp-copy">
+                  Changing one manufacturing operation affected equipment layout, part locating, sensing, guarding, operator access, and the surrounding production process. I learned to evaluate equipment changes as part of the complete manufacturing system rather than solving each problem in isolation
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">DESIGN AROUND COMPETING CONSTRAINTS</h3>
+                <p class="apple-exp-copy">
+                  The station needed to maintain a compact footprint while still providing enough space for the operator to load parts efficiently. Designing the presses to retract during loading and move into position for clinching taught me how equipment motion can resolve competing requirements between process needs, operator access, and floor space
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Connect Engineering to Business Impact</h3>
+                <p class="apple-exp-copy">
+                  This project showed me how relatively small equipment and process changes can create significant business impact. Consolidating the operations reduced labor, floor space, capital requirements, utility consumption, and consumable use while simplifying the overall manufacturing process
+                </p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block opt-tools">
+          <h2 class="experience-block-title">Engineering Methods</h2>
+          <p class="experience-tools">
+            SOLIDWORKS · Equipment Design · Fixture Design · Pneumatics · Sensors · Manufacturing Automation · Guarding · Process Optimization
+          </p>
+        </section>
+
+        <nav class="experience-footer-nav" aria-label="Project navigation">
+          <span class="experience-nav-link" aria-hidden="true"></span>
+          <a class="experience-nav-link opt-nav-all" href="../work.html#projects">All Projects</a>
+          <a class="experience-nav-link experience-nav-next" data-preserve-from href="project-2.html">
+            Next Project →
+            <span class="experience-nav-next-label">Ejector Method Redesign</span>
+          </a>
+        </nav>
+      </div>
+    </article>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Deirdre Kimberley. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script src="../script.js"></script>
 </body>
 </html>

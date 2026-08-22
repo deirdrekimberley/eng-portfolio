@@ -3,37 +3,248 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Automated Test Rig | Deirdre Kimberley</title>
+  <title>Station Redesign | Deirdre Kimberley</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
 </head>
-<body class="projects-page">
+<body class="project-case-page tesla-opt station-combo cell-redesign">
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="../index.html">Deirdre Kimberley</a>
       <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="work.html">Work</a>
-        <a href="about.html">About Me</a>
-        <a href="#contact">Contact</a>
-        <a href="projects/resume.pdf">Resume</a>
+        <a class="nav-link" href="../index.html">Home</a>
+        <a class="nav-link" href="../about.html">About</a>
+        <a class="nav-link active" href="../work.html">Work</a>
+        <a class="nav-link" href="../contact.html">Contact</a>
+        <a class="nav-link" href="../assets/Deirdre-Resume-test.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
       </nav>
     </div>
   </header>
 
-  <main class="project-detail">
-    <div class="container">
-      <a class="detail-back" href="index.html">← Back to Projects</a>
-      <h1>Automated Test Rig</h1>
-      <img src="../images/project-3.svg" alt="Automated test rig">
-      <p>
-        This page is your project detail space. Add your rig architecture,
-        instrumentation strategy, data pipeline, and lessons learned here.
-      </p>
-    </div>
+  <main class="project-case-main">
+    <article class="project-case">
+      <div class="container experience-container">
+        <a class="experience-back" data-context-back href="../work.html#projects">← Back to Projects</a>
+
+        <header class="experience-header station-combo-hero">
+          <p class="experience-company">Martinrea International</p>
+          <h1 class="project-case-title">Station Redesign</h1>
+          <p class="apple-exp-kicker">
+            Reducing operator movement and cycle time through manufacturing-cell redesign.
+          </p>
+          <div class="project-case-facts station-combo-facts">
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Role</p>
+              <p class="project-case-fact-value">Manufacturing Engineering Intern</p>
+            </div>
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Focus</p>
+              <p class="project-case-fact-value">Station Design · Operator Flow · Process Optimization</p>
+            </div>
+            <div class="project-case-fact">
+              <p class="project-case-fact-label">Tools</p>
+              <p class="project-case-fact-value">SOLIDWORKS · Robot Simulation · Guarding · Light Curtains</p>
+            </div>
+          </div>
+        </header>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">01</span>
+              Operator Flow Redesign
+            </h2>
+            <p class="apple-exp-kicker">
+              Reducing two cell entries to one by reorganizing the operator workflow.
+            </p>
+            <div class="apple-exp-split cell-visual-split">
+              <div class="apple-exp-split-col cell-visual-copy">
+                <p class="apple-exp-copy">
+                  The existing process required the operator to enter the cell to bolt the
+                  rail, exit, and then re-enter to place the part for welding. I redesigned the
+                  station so both tasks could be completed during a single cell entry,
+                  eliminating unnecessary operator movement and reducing cycle time.
+                </p>
+                <div class="process-comparison cell-flow" aria-label="Before and redesigned operator flow">
+                  <div class="comparison-column">
+                    <p class="combo-compare-kicker">Before</p>
+                    <ol class="cell-flow-steps">
+                      <li>Enter</li>
+                      <li>Bolt Rail</li>
+                      <li>Exit</li>
+                      <li>Re-enter</li>
+                      <li>Place Part</li>
+                      <li>Exit</li>
+                    </ol>
+                  </div>
+                  <div class="comparison-column">
+                    <p class="combo-compare-kicker">Redesigned</p>
+                    <ol class="cell-flow-steps">
+                      <li>Enter</li>
+                      <li>Bolt Rail + Place Part</li>
+                      <li>Exit</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="apple-exp-split-col cell-visual-col">
+                <figure class="cell-visual-media">
+                  <div class="cell-visual-frame">
+                    <img src="../assets/work/projects/station-redesign/station-exisiting.png" alt="CAD view of the existing manufacturing cell layout">
+                  </div>
+                  <figcaption class="station-combo-caption">Existing Cell Layout</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">02</span>
+              Cell Layout Redesign
+            </h2>
+            <p class="apple-exp-kicker">
+              Opening the cell created a pathway that supported a single-entry workflow.
+            </p>
+            <p class="apple-exp-copy cell-copy">
+              The existing cell layout restricted the operator pathway and required the double-entry workflow.
+            </p>
+            <p class="apple-exp-copy cell-copy cell-copy-follow">
+              The redesign opened the cell to create a new pathway that allowed the operator to perform both required operations during the same entry.
+            </p>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">03</span>
+              Safety &amp; Robot Clearance
+            </h2>
+            <p class="apple-exp-kicker">
+              Integrating safe operator access without interfering with automated equipment.
+            </p>
+            <p class="apple-exp-copy cell-copy">
+              Opening the cell created a new operator access point adjacent to automated
+              equipment. I redesigned the physical guarding and incorporated light-curtain
+              coverage around the expanded access area to maintain safe separation between
+              the operator and automated equipment.
+            </p>
+            <p class="apple-exp-copy cell-copy cell-copy-follow">
+              Because the modified cell geometry also changed the space surrounding the
+              existing weld robot, I used robot simulation to validate the redesigned layout
+              and confirm that the new guarding and operator pathway would remain clear of
+              the robot throughout its required motions.
+            </p>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">04</span>
+              Final Operator Movement
+            </h2>
+            <p class="apple-exp-kicker">
+              The final layout created a more direct operator path through a single cell entry.
+            </p>
+            <figure class="cell-final-media">
+              <div class="cell-final-frame">
+                <img src="../assets/work/projects/station-redesign/station-redesign.PNG" alt="CAD view of the redesigned manufacturing cell layout">
+              </div>
+              <figcaption class="station-combo-caption">Redesigned Cell Layout</figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">05</span>
+              Results
+            </h2>
+            <div class="cell-results-row">
+              <div class="metric">
+                <p class="metric-value experience-metric-value">40%</p>
+                <p class="metric-label experience-metric-label">JPH Increase</p>
+              </div>
+              <div class="metric">
+                <p class="metric-value experience-metric-value">17.1 s</p>
+                <p class="metric-label experience-metric-label">Cycle Time Reduction</p>
+              </div>
+              <div class="metric">
+                <p class="metric-value experience-metric-value cell-results-phrase">Simplified</p>
+                <p class="metric-label experience-metric-label">Operator Flow</p>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block">
+          <article class="apple-exp-chapter">
+            <h2 class="apple-exp-chapter-title">
+              <span class="experience-section-num">06</span>
+              Engineering Takeaways
+            </h2>
+            <div class="apple-exp-takeaways">
+              <article>
+                <h3 class="apple-exp-takeaway-title">Design Around the Operator</h3>
+                <p class="apple-exp-copy">
+                  Manufacturing equipment should support efficient operator movement rather than
+                  forcing unnecessary motion into every production cycle.
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Layout Changes Have Safety Implications</h3>
+                <p class="apple-exp-copy">
+                  Changing operator access also changes the safety boundaries of a cell.
+                  Guarding, light curtains, and robot clearance need to be considered as part
+                  of the layout itself.
+                </p>
+              </article>
+              <article>
+                <h3 class="apple-exp-takeaway-title">Eliminate Motion at the Source</h3>
+                <p class="apple-exp-copy">
+                  Rather than optimizing an inefficient sequence, redesigning the cell removed
+                  an unnecessary entry from every production cycle.
+                </p>
+              </article>
+            </div>
+          </article>
+        </section>
+
+        <section class="experience-block apple-exp-block opt-tools">
+          <h2 class="experience-block-title">Engineering Methods</h2>
+          <p class="experience-tools">
+            SOLIDWORKS · Station Design · Operator Flow · Robot Simulation · Guarding · Light Curtains · Process Optimization · Cycle Time Analysis
+          </p>
+        </section>
+
+        <nav class="experience-footer-nav" aria-label="Project navigation">
+          <a class="experience-nav-link" data-preserve-from href="project-2.html">
+            ← Previous Project
+            <span class="experience-nav-next-label">Ejector Method Redesign</span>
+          </a>
+          <a class="experience-nav-link opt-nav-all" href="../work.html#projects">All Projects</a>
+          <a class="experience-nav-link experience-nav-next" data-preserve-from href="project-4.html">
+            Next Project →
+            <span class="experience-nav-next-label">G.O.O.D.B.O.Y</span>
+          </a>
+        </nav>
+      </div>
+    </article>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Deirdre Kimberley. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script src="../script.js"></script>
 </body>
 </html>

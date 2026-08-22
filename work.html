@@ -3,113 +3,192 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deirdre Kimberley | Engineering Portfolio</title>
+  <title>Work | Deirdre Kimberley</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="home-page">
+<body class="work-page">
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="index.html">Deirdre Kimberley</a>
       <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="work.html">Work</a>
-        <a href="about.html">About Me</a>
-        <a href="#contact">Contact</a>
-        <a href="projects/resume.pdf">Resume</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="work.html">Work</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="assets/Deirdre-Resume-test.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="page-hero">
-      <div class="container">
-        <p class="eyebrow">All Work</p>
-        <h1>Projects</h1>
+  <main class="work-main">
+    <section class="work-hero">
+      <div class="container work-container">
+        <h1 class="work-hero-title">Work</h1>
+        <p class="work-hero-copy">
+          A collection of my engineering experience and selected projects across manufacturing,
+          robotics, automation, R&amp;D, and product development.
+        </p>
+        <p class="work-confidentiality">
+          <span class="work-confidentiality-label">A Note on Confidentiality:</span>
+          Most of my professional work is covered by confidentiality agreements, so technical details and imagery may be limited.
+        </p>
+        <nav class="work-jump-links" aria-label="Page sections">
+          <a href="#experience">Experience ↓</a>
+          <a href="#projects">Projects ↓</a>
+        </nav>
       </div>
     </section>
 
-    <section class="section section-alt">
-      <div class="container">
-        <div class="project-grid">
-          <a class="project-card" href="project-1.html">
-            <img src="../images/project-1.svg" alt="Fixture redesign project">
-            <div class="project-content">
-              <h3>Lightweight Fixture Redesign</h3>
-              <p>Mass reduction and faster assembly workflow.</p>
+    <section id="experience" class="work-experience">
+      <div class="container work-container">
+        <div class="work-section-head">
+          <p class="eyebrow">Experience</p>
+          <p class="work-section-subtitle">Selected roles and engineering work.</p>
+        </div>
+        <div class="work-exp-grid">
+          <article class="work-exp-item">
+            <span class="work-exp-num">01</span>
+            <div class="work-exp-body">
+              <h2 class="work-exp-company">Apple</h2>
+              <p class="work-exp-title">Manufacturing Quality Engineer — Home/Audio</p>
+              <p class="work-exp-dates">Apr 2026 – Present</p>
+              <p class="work-exp-focus">Metrology · DFM · GD&amp;T · Process Development</p>
+              <a class="work-exp-link" href="experience/apple.html">View Experience →</a>
             </div>
-          </a>
-          <a class="project-card" href="project-2.html">
-            <img src="../images/project-2.svg" alt="Enclosure development project">
-            <div class="project-content">
-              <h3>IP-Rated Enclosure Development</h3>
-              <p>Environmental sealing and reliability validation.</p>
+          </article>
+          <article class="work-exp-item">
+            <span class="work-exp-num">02</span>
+            <div class="work-exp-body">
+              <h2 class="work-exp-company">Tesla</h2>
+              <p class="work-exp-title">Technical Program Manager — Optimus</p>
+              <p class="work-exp-dates">Sep 2025 – Dec 2025</p>
+              <p class="work-exp-focus">Robotics · Manufacturing Systems · DFM/DFA · Tooling &amp; Fixtures</p>
+              <a class="work-exp-link" href="experience/tesla-optimus.html">View Experience →</a>
             </div>
-          </a>
-          <a class="project-card" href="project-3.html">
-            <img src="../images/project-3.svg" alt="Automated test rig project">
-            <div class="project-content">
-              <h3>Automated Test Rig</h3>
-              <p>Improved verification speed and repeatability.</p>
+          </article>
+          <article class="work-exp-item">
+            <span class="work-exp-num">03</span>
+            <div class="work-exp-body">
+              <h2 class="work-exp-company">Tesla</h2>
+              <p class="work-exp-title">Manufacturing Quality Engineer — Cybercab</p>
+              <p class="work-exp-dates">Jan 2025 – Apr 2025</p>
+              <p class="work-exp-focus">PFMEA · Machine Vision · Process Validation · Traceability</p>
+              <a class="work-exp-link" href="experience/tesla-cybercab.html">View Experience →</a>
             </div>
-          </a>
+          </article>
+          <article class="work-exp-item">
+            <span class="work-exp-num">04</span>
+            <div class="work-exp-body">
+              <h2 class="work-exp-company">Magna International</h2>
+              <p class="work-exp-title">Research &amp; Development Engineer</p>
+              <p class="work-exp-dates">Apr 2024 – Aug 2024</p>
+              <p class="work-exp-focus">Automation · Fixture Design · Quality Inspection · Mechanical Testing</p>
+              <a class="work-exp-link" href="experience/magna.html">View Experience →</a>
+            </div>
+          </article>
+          <article class="work-exp-item">
+            <span class="work-exp-num">05</span>
+            <div class="work-exp-body">
+              <h2 class="work-exp-company">Martinrea International</h2>
+              <p class="work-exp-title">Manufacturing Engineer</p>
+              <p class="work-exp-dates">Sep 2023 – Dec 2023</p>
+              <p class="work-exp-focus">Manufacturing Automation · Station Design · Process Optimization</p>
+              <a class="work-exp-link" href="experience/martinrea.html">View Experience →</a>
+              <a class="work-exp-secondary-link" href="#martinrea-projects">3 Featured Projects ↓</a>
+            </div>
+          </article>
+          <article class="work-exp-item">
+            <span class="work-exp-num">06</span>
+            <div class="work-exp-body">
+              <h2 class="work-exp-company">Woodbridge Group</h2>
+              <p class="work-exp-title">Lab Assistant</p>
+              <p class="work-exp-dates">Jan 2023 – Apr 2023</p>
+              <p class="work-exp-focus">Material Science · Data Analysis · Excel/VBA</p>
+              <a class="work-exp-link" href="experience/woodbridge.html">View Experience →</a>
+            </div>
+          </article>
         </div>
       </div>
+    </section>
 
-        <div class="container">
-          <div class="project-grid">
-            <a class="project-card" href="project-1.html">
-              <img src="../images/project-1.svg" alt="Fixture redesign project">
-              <div class="project-content">
-                <h3>Lightweight Fixture Redesign</h3>
-                <p>Mass reduction and faster assembly workflow.</p>
-              </div>
-            </a>
-            <a class="project-card" href="project-2.html">
-              <img src="../images/project-2.svg" alt="Enclosure development project">
-              <div class="project-content">
-                <h3>IP-Rated Enclosure Development</h3>
-                <p>Environmental sealing and reliability validation.</p>
-              </div>
-            </a>
-            <a class="project-card" href="project-3.html">
-              <img src="../images/project-3.svg" alt="Automated test rig project">
-              <div class="project-content">
-                <h3>Automated Test Rig</h3>
-                <p>Improved verification speed and repeatability.</p>
-              </div>
-            </a>
-          </div>
+    <section id="projects" class="work-projects">
+      <div class="container work-container">
+        <div class="work-section-head">
+          <p class="eyebrow">Projects</p>
+          <p class="work-section-subtitle">Selected engineering projects explored in greater detail.</p>
         </div>
-        <div class="container">
-          <div class="project-grid">
-            <a class="project-card" href="project-1.html">
-              <img src="../images/project-1.svg" alt="Fixture redesign project">
-              <div class="project-content">
-                <h3>Lightweight Fixture Redesign</h3>
-                <p>Mass reduction and faster assembly workflow.</p>
+        <div class="work-project-grid">
+          <article id="martinrea-projects" class="work-project-item">
+            <a class="selected-work-image-link" href="projects/project-1.html?from=projects">
+              <div class="selected-work-image-wrap">
+                <img class="work-project-img--station-combo" src="assets/work/projects/station-combo/station-combo-workpage.jpg" alt="Manufacturing cell consolidation project">
+                <span class="selected-work-overlay">View project →</span>
+              </div>
+              <div class="selected-work-meta">
+                <h3 class="selected-work-title">Manufacturing Cell Consolidation</h3>
+                <p class="selected-work-org">Martinrea International</p>
+                <p class="selected-work-categories">Manufacturing · Automation · Equipment Design</p>
               </div>
             </a>
-            <a class="project-card" href="project-2.html">
-              <img src="../images/project-2.svg" alt="Enclosure development project">
-              <div class="project-content">
-                <h3>IP-Rated Enclosure Development</h3>
-                <p>Environmental sealing and reliability validation.</p>
+          </article>
+          <article class="work-project-item">
+            <a class="selected-work-image-link" href="projects/project-2.html?from=projects">
+              <div class="selected-work-image-wrap">
+                <img class="work-project-img--ejector" src="assets/work/projects/ejector/ejector-workpage.PNG" alt="Ejector mechanism redesign project">
+                <span class="selected-work-overlay">View project →</span>
+              </div>
+              <div class="selected-work-meta">
+                <h3 class="selected-work-title">Ejector Method Redesign</h3>
+                <p class="selected-work-org">Martinrea International</p>
+                <p class="selected-work-categories">Mechanical Design · Process Improvement · Throughput</p>
               </div>
             </a>
-            <a class="project-card" href="project-3.html">
-              <img src="../images/project-3.svg" alt="Automated test rig project">
-              <div class="project-content">
-                <h3>Automated Test Rig</h3>
-                <p>Improved verification speed and repeatability.</p>
+          </article>
+          <article class="work-project-item">
+            <a class="selected-work-image-link" href="projects/project-3.html?from=projects">
+              <div class="selected-work-image-wrap">
+                <img class="work-project-img--station-redesign" src="assets/work/projects/station-redesign/station-redesign-workpage.PNG" alt="Manufacturing station redesign project">
+                <span class="selected-work-overlay">View project →</span>
+              </div>
+              <div class="selected-work-meta">
+                <h3 class="selected-work-title">Manufacturing Station Redesign</h3>
+                <p class="selected-work-org">Martinrea International</p>
+                <p class="selected-work-categories">Equipment Design · Safety · Process Optimization</p>
               </div>
             </a>
-          </div>
+          </article>
+          <article class="work-project-item">
+            <a class="selected-work-image-link" href="projects/project-4.html">
+              <div class="selected-work-image-wrap">
+                <img class="work-project-img--goodboy" src="assets/work/projects/goodboy/goodboy-workpage.jpg" alt="G.O.O.D.B.O.Y. pick-and-place robot">
+                <span class="selected-work-overlay">View project →</span>
+              </div>
+              <div class="selected-work-meta">
+                <h3 class="selected-work-title">G.O.O.D.B.O.Y</h3>
+                <p class="selected-work-org">University of Waterloo</p>
+                <p class="selected-work-categories">Robotics · Controls · System Integration</p>
+              </div>
+            </a>
+          </article>
+          <article class="work-project-item">
+            <a class="selected-work-image-link" href="projects/project-6.html">
+              <div class="selected-work-image-wrap">
+                <img class="work-project-img--tire" src="assets/work/projects/tire-changing/tire-workpage.jpg" alt="Automated tire changing robot">
+                <span class="selected-work-overlay">View project →</span>
+              </div>
+              <div class="selected-work-meta">
+                <h3 class="selected-work-title">Automated Tire Changing Robot</h3>
+                <p class="selected-work-org">University of Waterloo</p>
+                <p class="selected-work-categories">Mechanical Design · Automation · Prototyping</p>
+              </div>
+            </a>
+          </article>
         </div>
-      </section>
-
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">

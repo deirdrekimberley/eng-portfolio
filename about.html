@@ -1,55 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Me | Deirdre Kimberley</title>
+  <title>About | Deirdre Kimberley</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
-<body class="projects-page">
+<body class="about-page">
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="index.html">Deirdre Kimberley</a>
       <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="work.html">Work</a>
-        <a href="about.html">About Me</a>
-        <a href="index.html#contact">Contact</a>
-        <a href="projects/resume.pdf">Resume</a>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="about.html">About</a>
+        <a class="nav-link" href="work.html">Work</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="assets/Deirdre-Resume-test.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
       </nav>
     </div>
   </header>
 
-  <main class="project-detail">
-    <div class="container">
-      <h1>About Me</h1>
-      <p class="section-copy">
-        I’m a third-year mechanical engineering student at University of Waterloo with experience in mechanical design,
-        manufacturing optimization, validation testing, and project management. I enjoy solving complex engineering
-        problems and thrive in fast-paced, high-stakes environments where thoughtful design and rapid iteration are
-        critical.
+  <main class="about-main">
+    <section class="about-intro">
+      <div class="container about-container">
+        <div class="about-intro-grid">
+          <div class="about-intro-photo">
+            <img src="assets/about/deirdre-test.png" alt="Deirdre Kimberley">
+          </div>
+          <div class="about-intro-text">
+            <p class="eyebrow">About</p>
+            <h1 class="about-intro-heading">Hi, I'm Deirdre.</h1>
+            <div class="about-intro-copy">
+              <p>
+                I'm a Mechanical Engineering student at the University of Waterloo who really likes making things.
+                I love taking an idea and figuring out how to turn it into something real, especially when it means
+                designing, building, testing, and probably learning a few new things along the way.
+              </p>
+              <p>
+                I've always been drawn to hands-on problems and learning by actually doing, which has taken me from
+                manufacturing and robotics to some pretty ambitious school projects. Outside of engineering, I grew
+                up playing hockey, love travelling and being outdoors, and will take pretty much any excuse to go
+                somewhere I haven't been before.
+              </p>
+              <p class="about-intro-currently">
+                <span class="about-intro-currently-label">Currently:</span>
+                Looking for full-time opportunities starting in May 2027.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        My interests include biomechanical systems, robotics engineering, and product development, with a strong focus
-        on creating solutions that can positively impact people’s lives. I’m driven by the belief that engineering
-        should contribute to building a better and more accessible future.
+    <section class="about-focus">
+      <div class="container about-container">
+        <div class="about-section-head">
+          <p class="eyebrow">What I Like to Work On</p>
+        </div>
+        <div class="about-focus-grid">
+          <article class="about-focus-col">
+            <div class="about-focus-icon-container">
+              <img class="about-focus-icon about-focus-icon-build" src="assets/icons/build.svg" alt="">
+            </div>
+            <div class="about-focus-heading-row">
+              <h2 class="about-focus-title">Build</h2>
+            </div>
+            <div class="about-focus-desc-row">
+              <p class="about-focus-tagline">Turning ideas into physical systems.</p>
+            </div>
+            <ul class="about-focus-list">
+              <li>Mechanical Design</li>
+              <li>Fixtures &amp; Tooling</li>
+              <li>Prototyping</li>
+            </ul>
+          </article>
+          <article class="about-focus-col">
+            <div class="about-focus-icon-container">
+              <img class="about-focus-icon about-focus-icon-manufacture" src="assets/icons/manufacture.svg" alt="">
+            </div>
+            <div class="about-focus-heading-row">
+              <h2 class="about-focus-title">Manufacture</h2>
+            </div>
+            <div class="about-focus-desc-row">
+              <p class="about-focus-tagline">Making things repeatable and scalable.</p>
+            </div>
+            <ul class="about-focus-list">
+              <li>Automation</li>
+              <li>Process Development</li>
+              <li>DFM / DFA</li>
+            </ul>
+          </article>
+          <article class="about-focus-col">
+            <div class="about-focus-icon-container">
+              <img class="about-focus-icon about-focus-icon-solve" src="assets/icons/solve.svg" alt="">
+            </div>
+            <div class="about-focus-heading-row">
+              <h2 class="about-focus-title">Solve</h2>
+            </div>
+            <div class="about-focus-desc-row">
+              <p class="about-focus-tagline">Figuring out why things don't work.</p>
+            </div>
+            <ul class="about-focus-list">
+              <li>Root Cause</li>
+              <li>Testing &amp; Validation</li>
+              <li>Data Analysis</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        Outside of engineering, you can find me at a rink playing hockey, exploring the world, or trying something new.
-        As someone who believes there is no limit to what you can learn, I strive to take every oppurtunity to expand my
-        knowledge on really anything at anytime. I'm also always open to chat about engineering or non engineering
-        related things feel free to reach out! The photos on this page pretty much sum up who I am outside of being an
-        engineer but I think alot of those experiences have skills and lessons that I carry with me everyday that make
-        me a better engineer. Also, check out some of my projects, I think they are pretty
-        cool (totally unbiased).
-        .
-      </p>
-    </div>
+    <section class="about-life">
+      <div class="container about-container">
+        <div class="about-section-head">
+          <p class="eyebrow">Outside of Engineering</p>
+        </div>
+        <div class="about-life-grid">
+          <article class="about-life-item">
+            <div class="about-life-photo">
+              <img src="assets/about/hockey.JPEG" alt="Playing hockey">
+            </div>
+            <h3 class="about-life-title">Hockey</h3>
+            <p class="about-life-subtitle">12 years and counting.</p>
+          </article>
+          <article class="about-life-item">
+            <div class="about-life-photo">
+              <img src="assets/about/explore.jpg" alt="Travel and exploring">
+            </div>
+            <h3 class="about-life-title">Exploring</h3>
+            <p class="about-life-subtitle">Usually somewhere new.</p>
+          </article>
+          <article class="about-life-item">
+            <div class="about-life-photo">
+              <img class="about-life-img-arlo" src="assets/about/arlo.JPG" alt="Arlo">
+            </div>
+            <h3 class="about-life-title">Arlo</h3>
+            <p class="about-life-subtitle">My least productive coworker.</p>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -60,5 +153,4 @@
 
   <script src="script.js"></script>
 </body>
-
 </html>
